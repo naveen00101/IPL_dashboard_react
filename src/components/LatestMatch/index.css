@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.latestMatch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: Bree Serif;
+  color: white;
+  padding: 20px;
+}
+
+.competing-team-text {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.right-container {
+  text-align: right;
+}
+
+.head {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.latest-match-logo {
+  width: 150px;
+}

@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.match-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f172a;
+  width: 45%;
+  height: 450px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  font-family: Bree serif;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 32%;
+    margin-right: 10px;
+  }
+
+  .match-card-heading {
+    font-size: 22px;
+  }
+
+  .match-card-logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.match-card-logo {
+  height: 70px;
+  width: 70px;
+}
+
+.text-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.Won {
+  color: #18ed66;
+  font-size: 25px;
+}
+
+.Lost {
+  color: #e31a1a;
+  font-size: 25px;
+}
